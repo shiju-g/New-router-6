@@ -9,7 +9,7 @@ function App() {
       <BrowserRouter>
         <header className="w-full flex justify-between items-center py-5 px-10 bg-orange-50">
           <Link className="site-logo text-3xl font-bold" to="/">
-            #Vanlife
+            #VANLIFE
           </Link>
           <nav className="">
             <Link className="text-lg font-bold text-gray-700" to="/about">

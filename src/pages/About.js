@@ -4,8 +4,8 @@ const About = () => {
   return (
     <div className="w-full h-full">
       <img
-        className="w-full h-[500px]"
-        src="https://images.unsplash.com/photo-1532931899774-fbd4de0008fb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+        className="w-full md:h-[800px] h-96"
+        src="https://images.unsplash.com/photo-1523987355523-c7b5b0dd90a7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
         alt=""
       />
       <div className="py-8 px-10 bg-orange-50">
@@ -24,7 +24,9 @@ const About = () => {
         <div className="bg-orange-300 p-5 rounded-lg mt-5">
           <h2 className="text-2xl font-bold">Your destination is waiting.</h2>
           <h2 className="text-2xl font-bold">Your van is ready.</h2>
-          <button className='bg-black text-white rounded-lg py-2 px-5 font-medium mt-5'>Explore our vans</button>
+          <button className="bg-black text-white rounded-lg py-2 px-5 font-medium mt-5">
+            Explore our vans
+          </button>
         </div>
       </div>
     </div>
