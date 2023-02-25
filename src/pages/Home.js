@@ -12,17 +12,17 @@ const Home = () => {
         />
         <div className="absolute top-0 left-0 w-full h-full bg-[#00000067] flex items-center justify-center">
           <div className="text-white text-center">
-            <h1 className=" font-bold text-5xl mb-5">
-              You got the travel plans,we got the travel vans
+            <h1 className=" font-bold sm:text-5xl text-4xl mb-5">
+              You got the travel plans, we got the travel vans
             </h1>
-            <p className=" text-xl">
+            <p className=" sm:text-xl text-lg">
               Add adventure to your life by joining the #vanlife movement
             </p>
-            <p className=" text-xl">
+            <p className=" sm:text-xl text-lg">
               Rent the perfect van to make your perfect road trip
             </p>
-            <button className="text-white bg-yellow-500 w-fit px-10 py-3 font-bold text-2xl mt-8 rounded-lg">
-              Find your van
+            <button className="text-black bg-yellow-500 w-fit px-10 py-3 font-bold text-2xl mt-8 rounded-lg">
+              Find Your Van
             </button>
           </div>
         </div>
