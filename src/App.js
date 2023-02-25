@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <header className="w-full flex justify-between items-center py-5 px-10 bg-orange-50">
+        <header className="w-full flex justify-between items-center py-5 sm:px-10 px-5 bg-orange-50">
           <Link className="site-logo text-3xl font-bold" to="/">
             #VANLIFE
           </Link>
