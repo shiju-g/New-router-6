@@ -2,6 +2,9 @@ import './App.css';
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import About from './pages/About';
 import Home from './pages/Home';
+import Vans from './pages/Vans';
+
+import "./server"
 
 function App() {
   return (
@@ -15,14 +18,18 @@ function App() {
             <Link className="text-lg font-bold text-gray-700" to="/about">
               About
             </Link>
+            <Link className="text-lg font-bold text-gray-700 ml-5" to="/vans">
+              Vans
+            </Link>
           </nav>
         </header>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/vans" element={<Vans />} />
         </Routes>
         <footer className="bg-black  py-6 text-center text-white">
-          <p className=" text-xs"> @ 2022 #VANLIFE</p>
+          <p className=" text-xs"> @ 2023 #VANLIFE</p>
         </footer>
       </BrowserRouter>
     </>

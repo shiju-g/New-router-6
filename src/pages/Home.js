@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 // import { Link } from 'react-router-dom'
 
 const Home = () => {
@@ -18,12 +19,12 @@ const Home = () => {
             <p className=" sm:text-xl text-lg">
               Add adventure to your life by joining the #vanlife movement
             </p>
-            <p className=" sm:text-xl text-lg">
+            <p className=" sm:text-xl text-lg mb-8">
               Rent the perfect van to make your perfect road trip
             </p>
-            <button className="text-black bg-yellow-500 w-fit px-10 py-3 font-bold text-2xl mt-8 rounded-lg">
+            <Link to="/vans" className="text-black bg-yellow-500 w-fit px-10 py-3 font-bold text-2xl  rounded-lg">
               Find Your Van
-            </button>
+            </Link>
           </div>
         </div>
       </div>
