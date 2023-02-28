@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Vans from './pages/Vans';
 
 import "./server"
+import VanDetails from './pages/VanDetails';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/vans" element={<Vans />} />
+          <Route path={`/vans/:id`} element={<VanDetails />} />
         </Routes>
         <footer className="bg-black  py-6 text-center text-white">
           <p className=" text-xs"> @ 2023 #VANLIFE</p>
