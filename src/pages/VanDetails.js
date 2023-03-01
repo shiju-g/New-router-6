@@ -18,7 +18,7 @@ const VanDetails = () => {
   
 
   return (
-    <div className="bg-orange-50 md:px-20 px-5 pb-10 md:h-[84.1vh]">
+    <div className="bg-orange-50 md:px-20 px-5 pb-10 min-h-screen md:h-[84.1vh]">
       <Link to="/vans" className="underline mb-5  flex items-center ">
         <HiOutlineArrowNarrowLeft className="mr-3" /> Back to all vans
       </Link>
@@ -27,7 +27,7 @@ const VanDetails = () => {
           <div className="md:flex ">
         {console.log(VanDetails.vans && VanDetails.vans)}
         <img
-          className="rounded-lg mb-5 lg:max-w-lg md:max-w-sm"
+          className="rounded-lg shadow-lg shadow-gray-500 mb-5 lg:max-w-lg md:max-w-sm"
           src={ VanDetails.vans && VanDetails.vans.imageUrl}
           alt=""
         />

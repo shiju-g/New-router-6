@@ -35,7 +35,7 @@ const Vans = () => {
             <Link to={item.id}>
               <div key={item.id} className="max-w-sm mb-3">
                 {console.log(item)}
-                <img className="rounded" src={item.imageUrl} alt="" />
+                <img className="rounded shadow-gray-400 shadow" src={item.imageUrl} alt="" />
                 <div className="flex justify-between mt-2">
                   <h3 className="font-bold text-sm">{item.name}</h3>
                   <div>
